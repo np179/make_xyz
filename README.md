@@ -12,3 +12,5 @@ Bear in mind that you'll have to provide your files in XMOL format to do the NEB
 XMOL files be sure to set the first two lines to themselves to keep the header. In this case you'll have to add
 +2 to the indices of your atoms which you've aquired using something like ChemCraft. The xyz files should also 
 contain one blank line at the end.
+
+Can be run from terminal, place script in same directory as the files to work with.
