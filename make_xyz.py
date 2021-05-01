@@ -8,10 +8,7 @@ def rewrite(start, end, ind):
 
     Returns: Creates file new_[end.xyz] in current directory
             if it doesnt exist.
-
-    Comments: Both .xyz-files should start with data in line 1 and
-            have an empty line at the end. new_[end.xyz] can not exist,
-            if it exists it will not be overwritten."""
+    """
 
     with open('{}'.format(start), 'r') as begin:
         with open('{}'.format(end), 'r') as stop:
